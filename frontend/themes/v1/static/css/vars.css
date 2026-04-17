@@ -1,0 +1,12 @@
+:root {
+  --grid-gap: 40px;
+  --grid-padding: 3rem;
+  --content-width: 1140px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --content-width: 100%;
+  }
+}
+

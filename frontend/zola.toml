@@ -1,0 +1,21 @@
+# The URL the site will be built for
+base_url = "/"
+compile_sass = false
+generate_feeds = false
+build_search_index = false
+title = "The Kids Hub"
+theme = "v1"
+slugify.paths = "on"
+
+[markdown]
+
+[markdown.highlighting]
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[extra]
+menu = [
+  { name = "Home", url = "/" },
+  { name = "About", url = "/about" },
+  { name = "Contact", url = "/contact" },
+]

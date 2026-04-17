@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+css_path="$(dirname "$(realpath "$0")")/themes/v1/static/css"
+npx lightningcss-cli --minify --bundle --targets ">= 0.25%" "$css_path/app.css" -o "$css_path/app.min.css"

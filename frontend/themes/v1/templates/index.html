@@ -1,0 +1,50 @@
+{% extends "section.html" %}
+{% block mast %}
+  {% include "blocks/home-mast.html" %}
+{% endblock %}
+{% block content %}
+<div class="elementor-element elementor-element-53b281b e-flex e-con-boxed e-con e-parent">
+  <div class="elementor elementor-9">
+    <div class="elementor-element elementor-element-118193b e-flex e-con-boxed e-con e-parent">
+      <div class="grid grid-two-column">
+        <div class="column">
+          <div class="elementor-element elementor-element-787ac83 elementor-widget elementor-widget-image">
+            <img width="800" height="542" src="{{ get_url(path="images/The-Kids-Hub-Coding-Club-Newcastle-02-1024x694.webp") }}" class="attachment-large size-large" alt="The Kids Hub" />
+          </div>
+        </div>
+        <div class="column">
+          <div class="elementor-element elementor-element-e412602 elementor-widget elementor-widget-heading">
+            <h1 class="elementor-heading-title">
+              {{ section.title }}
+          </h1>
+          </div>
+          <div class="elementor-element elementor-element-3eb739e elementor-widget elementor-widget-heading">
+              {% if section.extra.subheading %}
+                <h2 class="elementor-heading-title">
+                  {{ section.extra.subheading }}
+                </h2>
+              {% endif %}
+              {{ section.content | safe }}
+          </div>
+          <div class="elementor-element elementor-element-88ddc72 elementor-tablet-align-center elementor-widget elementor-widget-button width-100">
+            <div class="elementor-widget-container">
+              <div class="elementor-button-wrapper">
+                <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ get_url(path="/about") }}">
+                <span class="elementor-button-content-wrapper">
+                <span class="elementor-button-text">
+                  Learn More
+                </span>
+                </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include "blocks/hands-on-cta.html" %}
+{% include "blocks/fun-cta.html" %}
+{% endblock %}
+

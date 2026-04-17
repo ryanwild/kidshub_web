@@ -1,0 +1,19 @@
+kidshub.local {
+
+	tls internal
+
+	handle_path /* {
+    root /srv
+	  file_server
+	}
+
+	handle_path /health {
+		respond "ok" 200
+	}
+
+	# Handle paths not found
+	handle {
+		respond "Not Found" 404
+	}
+}
+

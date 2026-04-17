@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="elementor-element elementor-element-9c24ce9 e-con-full e-flex e-con e-parent">
+  <div class="elementor-element elementor-element-f1e2e89 elementor-widget elementor-widget-theme-post-content">
+    <div class="elementor elementor-9">
+      <div class="elementor-element elementor-element-118193b e-flex e-con-boxed e-con e-parent">
+        <div class="elementor-element elementor-element-e412602 elementor-widget elementor-widget-heading">
+          <h1 class="elementor-heading-title">
+            {{ page.title }}
+          </h1>
+        </div>
+        <div class="elementor-element elementor-element-3eb739e elementor-widget elementor-widget-heading">
+          {% if page.extra.subheading %}
+            <h2 class="elementor-heading-title">
+              {{ page.extra.subheading }}
+            </h2>
+          {% endif %}
+          {{ page.content | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

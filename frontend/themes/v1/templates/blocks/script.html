@@ -1,0 +1,44 @@
+
+<script src="https://unpkg.com/@glidejs/glide@3.7.1/dist/glide.min.js"></script>
+<script>
+  const testimonialsRoot = document.querySelector(".glide")
+  if (testimonialsRoot) {
+    new Glide(testimonialsRoot, {
+      autoplay: 5000,
+      hoverpause: false,
+      perView: 1,
+      rewindDuration: 0,
+    }).mount()
+  }
+</script>
+
+
+<script>
+  const lazyloadRunObserver = () => {
+    const lazyloadBackgrounds = document.querySelectorAll(
+      `.e-con.e-parent:not(.e-lazyloaded)`,
+    );
+    const lazyloadBackgroundObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            let lazyloadBackground = entry.target;
+            if (lazyloadBackground) {
+              lazyloadBackground.classList.add("e-lazyloaded");
+            }
+            lazyloadBackgroundObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: "200px 0px 200px 0px" },
+    );
+    lazyloadBackgrounds.forEach((lazyloadBackground) => {
+      lazyloadBackgroundObserver.observe(lazyloadBackground);
+    });
+  };
+  const events = ["DOMContentLoaded", "elementor/lazyload/observe"];
+  events.forEach((event) => {
+    document.addEventListener(event, lazyloadRunObserver);
+  });
+</script>
+

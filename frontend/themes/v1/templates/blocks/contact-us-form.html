@@ -1,0 +1,71 @@
+<div class="elementor-element elementor-element-8756595 e-con-full e-flex e-con e-child">
+  <div class="elementor-element elementor-element-da0a2d1 elementor-button-align-stretch elementor-widget elementor-widget-form">
+    <div class="elementor-widget-container">
+      <form
+        class="elementor-form"
+        action="https://formspree.io/f/xnjoenlq"
+        method="post"
+        name="Contact Form"
+        aria-label="Contact Form"
+      >
+        <div class="elementor-form-fields-wrapper elementor-labels-">
+          <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
+            <label for="form-field-name" class="elementor-field-label">
+              Name
+            </label>
+            <input size="1" type="text" name="name" id="form-field-name" class="elementor-field elementor-size-sm elementor-field-textual" placeholder="Name">
+          </div>
+          <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+            <label for="form-field-email" class="elementor-field-label">
+              Email
+            </label>
+            <input size="1" type="email" name="email" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email*" required>
+          </div>
+          <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_9245d81 elementor-col-100 elementor-field-required">
+            <label for="form-field-field_9245d81" class="elementor-field-label">
+              Phone Number
+            </label>
+            <input 
+              size="1"
+              type="tel"
+              name="phone"
+              id="form-field-field_9245d81"
+              class="elementor-field elementor-size-sm elementor-field-textual"
+              placeholder="Phone Number*"
+              required
+              autocomplete="tel"
+              pattern="^[+]?[0-9]{9,12}$"
+              title="Only phone numbers are accepted."
+            >
+          </div>
+          <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+          <label for="form-field-message" class="elementor-field-label">
+            Message
+          </label>
+          <textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="message" id="form-field-message" rows="4" placeholder="Message"></textarea>	</div>
+          <div class="elementor-field-type-acceptance elementor-field-group elementor-column elementor-field-group-field_6ac4275 elementor-col-100 elementor-field-required">
+          <div class="elementor-field-subgroup">
+            <span class="elementor-field-option">
+              <input type="checkbox" name="accept-contact-terms" id="accept-contact-terms" class="elementor-field elementor-size-sm elementor-acceptance-field" required>
+              <label for="accept-contact-terms">
+                This form collects personal information such as your name and email,
+                together with the other data fields so we can later communicate with you 
+                appropriately. By submitting this form, you agree to 
+                  our <a href="{{ get_url(path="/privacy/") }}" target="_blank">Privacy Policy</a>
+              </label>
+            </span>
+          </div>
+        </div>
+        <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+          <button class="elementor-button elementor-size-sm" type="submit">
+            <span class="elementor-button-content-wrapper">
+              <span class="elementor-button-text">
+                Send
+              </span>
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
