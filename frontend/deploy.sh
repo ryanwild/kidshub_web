@@ -2,6 +2,13 @@
 
 set -euo pipefail
 
+if [ "$(git branch --show-current)" = "main" ] && [ -z "$(git status --porcelain)" ]; then
+  echo "Branch is main and working tree is clean."
+else
+  echo "Branch is not main or working tree has changes."
+  exit 1
+fi
+
 frontend_path="$(dirname "$(realpath "$0")")"
 $(cd "$frontend_path" && ./build-css.sh && zola build --base-url "https://ryanwild.github.io/kidshub_web/")
 
