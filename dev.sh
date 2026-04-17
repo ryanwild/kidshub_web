@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-cd frontend && zola serve --drafts --base-url "/"
+cd frontend && zola serve --drafts
