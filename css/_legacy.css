@@ -8090,6 +8090,7 @@ button.swiper-pagination-bullet {
 	--padding-bottom: 100px;
 	--padding-left: 50px;
 	--padding-right: 50px;
+  padding: 50px;
 }
 
 .elementor-9 .elementor-element.elementor-element-9da1522 {
@@ -8484,6 +8485,7 @@ button.swiper-pagination-bullet {
 		--padding-bottom: 50px;
 		--padding-left: 50px;
 		--padding-right: 50px;
+    padding: 50px;
 	}
 
 	.elementor-9 .elementor-element.elementor-element-e412602 .elementor-heading-title {
@@ -9662,7 +9664,7 @@ button.swiper-pagination-bullet {
 	color: var(--e-global-color-primary);
 }
 
-.elementor-134 .elementor-element.elementor-element-9c24ce9 {
+.elementor-element.elementor-element-9c24ce9 {
 	--display: flex;
 	--padding-top: 0px;
 	--padding-bottom: 0px;
@@ -10552,7 +10554,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     width: 100%;
     max-width: 100%;
     height: 700px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center center;
 }
 
@@ -10848,10 +10850,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
         --justify-content: center;
     }
 
-    .elementor-11 .elementor-element.elementor-element-824f484 img {
-        height: 500px;
-    }
-
     .elementor-11 .elementor-element.elementor-element-87d1f37 > .elementor-shape-bottom svg, .elementor-11 .elementor-element.elementor-element-87d1f37 > .e-con-inner > .elementor-shape-bottom svg {
         width: calc(100px + 1.3px);
     }
@@ -11081,10 +11079,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
     .elementor-11 .elementor-element.elementor-element-d464f6b .elementor-icon-box-description {
         font-size: var( --e-global-typography-text-font-size );
-    }
-
-    .elementor-11 .elementor-element.elementor-element-824f484 img {
-        height: 500px;
     }
 
     .elementor-11 .elementor-element.elementor-element-87d1f37 {
@@ -11360,7 +11354,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     }
 
     .elementor-11 .elementor-element.elementor-element-1a083c7 {
-        --width: 40%;
+        --width: 37%;
     }
 
     .elementor-11 .elementor-element.elementor-element-e1cc19e {
@@ -11378,7 +11372,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     }
 
     .elementor-11 .elementor-element.elementor-element-1a083c7 {
-        --width: 40%;
+        --width: 37%;
     }
 }
 
@@ -12888,7 +12882,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     width: 100%;
     max-width: 100%;
     height: 700px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center center;
 }
 
@@ -13184,10 +13178,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
         --justify-content: center;
     }
 
-    .elementor-11 .elementor-element.elementor-element-824f484 img {
-        height: 500px;
-    }
-
     .elementor-11 .elementor-element.elementor-element-87d1f37 > .elementor-shape-bottom svg, .elementor-11 .elementor-element.elementor-element-87d1f37 > .e-con-inner > .elementor-shape-bottom svg {
         width: calc(100px + 1.3px);
     }
@@ -13417,10 +13407,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
     .elementor-11 .elementor-element.elementor-element-d464f6b .elementor-icon-box-description {
         font-size: var( --e-global-typography-text-font-size );
-    }
-
-    .elementor-11 .elementor-element.elementor-element-824f484 img {
-        height: 500px;
     }
 
     .elementor-11 .elementor-element.elementor-element-87d1f37 {
@@ -13696,7 +13682,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     }
 
     .elementor-11 .elementor-element.elementor-element-1a083c7 {
-        --width: 40%;
+        --width: 37%;
     }
 
     .elementor-11 .elementor-element.elementor-element-e1cc19e {
@@ -13714,7 +13700,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     }
 
     .elementor-11 .elementor-element.elementor-element-1a083c7 {
-        --width: 40%;
+        --width: 37%;
     }
 }
 
