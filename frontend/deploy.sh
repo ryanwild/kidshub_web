@@ -2,14 +2,18 @@
 
 set -euo pipefail
 
+frontend_path="$(dirname "$(realpath "$0")")"
+
+# first restore frontend/public to prevoius revision
+git restore --source=HEAD --staged --worktree -- "$frontend_path/public"
+
 if [ "$(git branch --show-current)" = "main" ] && [ -z "$(git status --porcelain)" ]; then
-  echo "Branch is main and working tree is clean."
+  echo "Ready to deploy, branch is main and working tree is clean..."
 else
-  echo "Branch is not main or working tree has changes."
+  echo "Cannot deploy, branch is not main or working tree has changes."
   exit 1
 fi
 
-frontend_path="$(dirname "$(realpath "$0")")"
 $(cd "$frontend_path" && ./build-css.sh && zola build --base-url "https://ryanwild.github.io/kidshub_web/")
 
 git add "$frontend_path/public"
