@@ -11161,14 +11161,6 @@ button.swiper-pagination-bullet {
   color: var(--e-global-color-primary);
 }
 
-.elementor-134 .elementor-element.elementor-element-9c24ce9 {
-  --display: flex;
-  --padding-top: 0px;
-  --padding-bottom: 0px;
-  --padding-left: 0px;
-  --padding-right: 0px;
-}
-
 @media (max-width: 1024px) {
   .elementor-134 .elementor-element.elementor-element-e68dbec {
     --min-height: 250px;
@@ -17252,18 +17244,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     .elementor-nav-menu
     .elementor-item {
     font-size: var(--e-global-typography-text-font-size);
-  }
-
-  .elementor-20
-    .elementor-element.elementor-element-16a59fc
-    .elementor-nav-menu--main
-    > .elementor-nav-menu
-    > li
-    > .elementor-nav-menu--dropdown,
-  .elementor-20
-    .elementor-element.elementor-element-16a59fc
-    .elementor-nav-menu__container.elementor-nav-menu--dropdown {
-    margin-top: 5px !important;
   }
 }
 
