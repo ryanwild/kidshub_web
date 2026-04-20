@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+frontend_path="$(dirname "$(realpath "$0")")/../frontend"
+
+# first restore frontend/public to prevoius revision
+git restore --source=HEAD --staged --worktree -- "$frontend_path/public"

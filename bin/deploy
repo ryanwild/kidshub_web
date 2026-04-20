@@ -2,7 +2,8 @@
 
 set -euo pipefail
 
-frontend_path="$(dirname "$(realpath "$0")")/frontend"
+bin_path="$(dirname "$(realpath "$0")")"
+frontend_path="$bin_path/../frontend"
 
 # first restore frontend/public to prevoius revision
 git restore --source=HEAD --staged --worktree -- "$frontend_path/public"
@@ -14,7 +15,7 @@ else
   exit 1
 fi
 
-$(./build-css && cd "$frontend_path" && zola build --base-url "https://ryanwild.github.io/kidshub_web/")
+$(bash "$bin_path/build-css" && cd "$frontend_path" && zola build --base-url "https://ryanwild.github.io/kidshub_web/")
 
 git add "$frontend_path/public"
 git commit -m "Deployment: $(git rev-parse --verify HEAD)"
