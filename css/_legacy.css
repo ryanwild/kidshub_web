@@ -8128,7 +8128,6 @@ button.swiper-pagination-bullet {
 .elementor-testimonial__image img {
   border-radius: 999px;
   box-sizing: content-box;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -9727,10 +9726,6 @@ button.swiper-pagination-bullet {
     text-align: center;
   }
 
-  .elementor-9 .elementor-element.elementor-element-787ac83 img {
-    height: 195px;
-  }
-
   .elementor-9 .elementor-element.elementor-element-257ebbc {
     --padding-top: 50px;
     --padding-bottom: 50px;
@@ -9755,10 +9750,6 @@ button.swiper-pagination-bullet {
     --padding-bottom: 20px;
     --padding-left: 20px;
     --padding-right: 20px;
-  }
-
-  .elementor-9 .elementor-element.elementor-element-c0140da img {
-    height: 295px;
   }
 
   .elementor-9 .elementor-element.elementor-element-4839d78 {
