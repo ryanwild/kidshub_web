@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+frontend_path="$(dirname "$(realpath "$0")")/frontend"
+css_path="$frontend_path/themes/v1/static/css"
+
+watchexec --filter "**/*.css" --ignore "app.min.css" --clear --verbose -- \
+  "npx lightningcss-cli --minify --bundle --targets '>= 0.25%' $css_path/app.css -o $css_path/app.min.css" &
+$(cd "$frontend_path" && zola serve --drafts) &
+wait
