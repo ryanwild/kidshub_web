@@ -24,6 +24,7 @@
                       <input
                           type="text"
                           name="name"
+                          autocomplete="given-name"
                           id="form-field-name"
                           class="elementor-field elementor-size-sm elementor-field-textual"
                           placeholder="Name*"
@@ -34,6 +35,7 @@
                       <input
                         type="email"
                         name="email"
+                        autocomplete="email"
                         id="form-field-email"
                         class="elementor-field elementor-size-sm elementor-field-textual"
                         placeholder="Email*"
@@ -44,6 +46,7 @@
                       <input
                         type="tel"
                         name="phone"
+                        autocomplete="tel"
                         id="form-field-field_9245d81"
                         class="elementor-field elementor-size-sm elementor-field-textual"
                         placeholder="Phone Number*"
@@ -53,7 +56,7 @@
                       >
                     </div>
                     <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_0ecd5ee elementor-col-50 elementor-field-required elementor-mark-required">
-                      <input type="text" name="location" id="form-field-field_0ecd5ee" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Location*" required>
+                      <input type="text" name="location" autocomplete="street-address" id="form-field-field_0ecd5ee" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Location*" required>
                     </div>
                     <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
                       <textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="message" id="form-field-message" rows="4" placeholder="Message"></textarea>
@@ -66,7 +69,7 @@
                     <div class="elementor-field-type-acceptance elementor-field-group elementor-column elementor-field-group-field_6ac4275 elementor-col-100 elementor-field-required elementor-mark-required">
                       <div class="elementor-field-subgroup">
                           <span class="elementor-field-option">
-                          <input type="checkbox" name="accept-join-us-terms" id="form-field-field_6ac4275" class="elementor-field elementor-size-sm  elementor-acceptance-field" required>
+                          <input type="checkbox" name="accept-join-us-terms" id="form-field-field_6ac4275" class="elementor-field elementor-size-sm  elementor-acceptance-field" checked required>
                           <label for="form-field-field_6ac4275">
                             This form collects personal information such as your name and email, 
                             together with the other data fields so we can later communicate with you appropriately.
