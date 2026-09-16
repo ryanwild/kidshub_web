@@ -15,7 +15,7 @@ else
   exit 1
 fi
 
-$(bash "$bin_path/build-css" && cd "$frontend_path" && zola build --base-url "https://thekidshub.co.uk")
+$(bash "$bin_path/build-css" && cd "$frontend_path" && zola build)
 
 git add "$frontend_path/public"
 git commit -m "Deployment: $(git rev-parse --verify HEAD)"
