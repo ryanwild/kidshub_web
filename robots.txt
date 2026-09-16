@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://thekidshub.co.uk/sitemap.xml
+Sitemap: https://ryanwild.github.io/kidshub_web/sitemap.xml
