@@ -4613,16 +4613,16 @@ elementor-shape-bottom .elementor-button.elementor-size-xl {
 }
 /*# sourceURL=elementor-frontend-inline-css */
 .elementor-kit-3 {
-  --e-global-color-primary: #f2f2f2;
-  --e-global-color-secondary: #1b1464;
-  --e-global-color-text: #1d1f2c;
+  --e-global-color-primary: #fff;
+  --e-global-color-secondary: #fff;
+  --e-global-color-text: #fff;
   --e-global-color-accent: #e50d15;
   --e-global-color-dabeed8: #fbb03b;
   --e-global-color-86dbfc5: #8cc63f;
   --e-global-color-5d89e60: #000000;
   --e-global-color-5f8e590: #ffffff;
-  --e-global-color-c17a858: #f2f2f2;
-  --e-global-typography-primary-font-family: "Lobster Two";
+  --e-global-color-c17a858: #222222;
+  --e-global-typography-primary-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
   --e-global-typography-primary-font-size: 40px;
   --e-global-typography-primary-font-weight: 700;
   --e-global-typography-secondary-font-family: "Cabin";
@@ -4634,7 +4634,7 @@ elementor-shape-bottom .elementor-button.elementor-size-xl {
   --e-global-typography-accent-font-family: "Cabin";
   --e-global-typography-accent-font-size: 18px;
   --e-global-typography-accent-font-weight: 600;
-  --e-global-typography-8014ccc-font-family: "Lobster Two";
+  --e-global-typography-8014ccc-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
   --e-global-typography-8014ccc-font-size: 25px;
   --e-global-typography-8014ccc-font-weight: 500;
   --e-global-typography-646ff0f-font-family: "Cabin";
@@ -4671,7 +4671,7 @@ elementor-shape-bottom .elementor-button.elementor-size-xl {
 .elementor-kit-3 .elementor-button:hover,
 .elementor-kit-3 .elementor-button:focus {
   background-color: var(--e-global-color-primary);
-  color: var(--e-global-color-secondary);
+  color: var(--e-global-color-c17a858);
 }
 
 .elementor-kit-3 e-page-transition {
@@ -9354,7 +9354,6 @@ button.swiper-pagination-bullet {
   font-family: var(--e-global-typography-primary-font-family), Sans-serif;
   font-size: var(--e-global-typography-primary-font-size);
   font-weight: var(--e-global-typography-primary-font-weight);
-  text-shadow: 5px 2px 0px #3c415f;
   color: var(--e-global-color-primary);
 }
 
@@ -9379,7 +9378,7 @@ button.swiper-pagination-bullet {
 .elementor-9 .elementor-element.elementor-element-7821f64 .elementor-button {
   background-color: var(--e-global-color-primary);
   fill: var(--e-global-color-secondary);
-  color: var(--e-global-color-secondary);
+  color: var(--e-global-color-c17a858);
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   border-color: var(--e-global-color-primary);
@@ -9410,21 +9409,10 @@ button.swiper-pagination-bullet {
 .elementor-9 .elementor-element.elementor-element-f49ee33 .elementor-button {
   background-color: var(--e-global-color-primary);
   fill: var(--e-global-color-secondary);
-  color: var(--e-global-color-secondary);
+  color: var(--e-global-color-c17a858);
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   border-color: var(--e-global-color-primary);
-}
-
-.elementor-9
-  .elementor-element.elementor-element-f49ee33
-  .elementor-button:hover,
-.elementor-9
-  .elementor-element.elementor-element-f49ee33
-  .elementor-button:focus {
-  background-color: var(--e-global-color-secondary);
-  color: var(--e-global-color-c17a858);
-  border-color: var(--e-global-color-secondary);
 }
 
 .elementor-9
@@ -9887,7 +9875,7 @@ button.swiper-pagination-bullet {
 .elementor-20
   .elementor-element.elementor-element-93602e3
   .elementor-icon-list-text {
-  color: var(--e-global-color-primary);
+  color: var(--e-global-color-c17a858);
   transition: color 0.3s;
 }
 
@@ -10552,16 +10540,14 @@ button.swiper-pagination-bullet {
   .elementor-element.elementor-element-9755d2d
   .elementor-icon-list-icon
   i {
-  color: var(--e-global-color-5f8e590);
-  transition: color 0.3s;
+  color: var(--e-global-color-c17a858);
 }
 
 .elementor-34
   .elementor-element.elementor-element-9755d2d
   .elementor-icon-list-icon
   svg {
-  fill: var(--e-global-color-5f8e590);
-  transition: fill 0.3s;
+  fill: var(--e-global-color-c17a858);
 }
 
 .elementor-34 .elementor-element.elementor-element-9755d2d {
@@ -10585,15 +10571,8 @@ button.swiper-pagination-bullet {
 .elementor-34
   .elementor-element.elementor-element-9755d2d
   .elementor-icon-list-text {
-  color: var(--e-global-color-5f8e590);
+  color: var(--e-global-color-c17a858);
   transition: color 0.3s;
-}
-
-.elementor-34
-  .elementor-element.elementor-element-9755d2d
-  .elementor-icon-list-item:hover
-  .elementor-icon-list-text {
-  color: var(--e-global-color-dabeed8);
 }
 
 .elementor-34 .elementor-element.elementor-element-6cc7485 {
@@ -10653,7 +10632,7 @@ button.swiper-pagination-bullet {
   .elementor-element.elementor-element-29931fa
   .elementor-icon-list-icon
   i {
-  color: var(--e-global-color-5f8e590);
+  color: var(--e-global-color-c17a858);
   transition: color 0.3s;
 }
 
@@ -10686,15 +10665,7 @@ button.swiper-pagination-bullet {
 .elementor-34
   .elementor-element.elementor-element-29931fa
   .elementor-icon-list-text {
-  color: var(--e-global-color-5f8e590);
-  transition: color 0.3s;
-}
-
-.elementor-34
-  .elementor-element.elementor-element-29931fa
-  .elementor-icon-list-item:hover
-  .elementor-icon-list-text {
-  color: var(--e-global-color-dabeed8);
+  color: var(--e-global-color-c17a858);
 }
 
 .elementor-34 .elementor-element.elementor-element-0389bcc {
@@ -10762,7 +10733,7 @@ button.swiper-pagination-bullet {
   .elementor-element.elementor-element-1878426
   .elementor-icon-list-icon
   svg {
-  fill: var(--e-global-color-primary);
+  fill: var(--e-global-color-c17a858);
   transition: fill 0.3s;
 }
 
@@ -10788,8 +10759,7 @@ button.swiper-pagination-bullet {
 .elementor-34
   .elementor-element.elementor-element-1878426
   .elementor-icon-list-text {
-  color: var(--e-global-color-5f8e590);
-  transition: color 0.3s;
+  color: var(--e-global-color-c17a858);
 }
 
 .elementor-34 .elementor-element.elementor-element-5a85d54 {
@@ -11145,10 +11115,9 @@ button.swiper-pagination-bullet {
 .elementor-134
   .elementor-element.elementor-element-96b87de
   .elementor-heading-title {
-  font-family: "Lobster Two", Sans-serif;
+  font-family: var(--e-global-typography-primary-font-family), sans-serif;
   font-size: 50px;
   font-weight: 700;
-  text-shadow: 5px 2px 0px #1b1464;
   color: var(--e-global-color-primary);
 }
 
@@ -11262,10 +11231,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-b48d810
   .elementor-heading-title {
-  font-family: "Lobster Two", Sans-serif;
+  font-family: var(--e-global-typography-primary-font-family), sans-serif;
   font-size: 75px;
   font-weight: 700;
-  text-shadow: 5px 2px 0px #1b1464;
   color: var(--e-global-color-primary);
 }
 
@@ -11276,9 +11244,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11 .elementor-element.elementor-element-a895bb5 .elementor-button {
   background-color: var(--e-global-color-primary);
   fill: var(--e-global-color-secondary);
-  color: var(--e-global-color-secondary);
+  color: var(--e-global-color-c17a858);
   border-style: solid;
-  border-width: 2px 2px 2px 2px;
+  border-width: 2px;
   border-color: var(--e-global-color-primary);
 }
 
@@ -12108,9 +12076,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-fa6bd6a.elementor-view-default
   .elementor-icon {
-  fill: var(--e-global-color-c17a858);
-  color: var(--e-global-color-c17a858);
-  border-color: var(--e-global-color-c17a858);
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
 }
 
 .elementor-11 .elementor-element.elementor-element-fa6bd6a .elementor-icon {
@@ -12135,7 +12103,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
-  color: var(--e-global-color-c17a858);
 }
 
 .elementor-11
@@ -12269,7 +12236,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
-  color: var(--e-global-color-c17a858);
 }
 
 .elementor-11
@@ -14365,24 +14331,14 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-b48d810
   .elementor-heading-title {
-  font-family: "Lobster Two", Sans-serif;
+  font-family: var(--e-global-typography-primary-font-family), sans-serif;
   font-size: 75px;
   font-weight: 700;
-  text-shadow: 5px 2px 0px #1b1464;
   color: var(--e-global-color-primary);
 }
 
 .elementor-11 .elementor-element.elementor-element-48d3144 {
   color: var(--e-global-color-5f8e590);
-}
-
-.elementor-11 .elementor-element.elementor-element-a895bb5 .elementor-button {
-  background-color: var(--e-global-color-primary);
-  fill: var(--e-global-color-secondary);
-  color: var(--e-global-color-secondary);
-  border-style: solid;
-  border-width: 2px 2px 2px 2px;
-  border-color: var(--e-global-color-primary);
 }
 
 .elementor-11
@@ -14440,7 +14396,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-1781bf5
   .elementor-icon-box-wrapper {
-  align-items: center;
+  align-items: start;
   gap: 15px;
 }
 
@@ -14510,7 +14466,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-6e86420
   .elementor-icon-box-wrapper {
-  align-items: center;
+  align-items: start;
   gap: 15px;
 }
 
@@ -14580,7 +14536,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-5bde496
   .elementor-icon-box-wrapper {
-  align-items: center;
+  align-items: start;
   gap: 15px;
 }
 
@@ -15208,9 +15164,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-fa6bd6a.elementor-view-default
   .elementor-icon {
-  fill: var(--e-global-color-c17a858);
-  color: var(--e-global-color-c17a858);
-  border-color: var(--e-global-color-c17a858);
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
 }
 
 .elementor-11 .elementor-element.elementor-element-fa6bd6a .elementor-icon {
@@ -15235,7 +15191,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
-  color: var(--e-global-color-c17a858);
 }
 
 .elementor-11
@@ -15339,9 +15294,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-11
   .elementor-element.elementor-element-d1b26b6.elementor-view-default
   .elementor-icon {
-  fill: var(--e-global-color-c17a858);
-  color: var(--e-global-color-c17a858);
-  border-color: var(--e-global-color-c17a858);
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
 }
 
 .elementor-11 .elementor-element.elementor-element-d1b26b6 .elementor-icon {
@@ -15366,7 +15321,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
-  color: var(--e-global-color-c17a858);
 }
 
 .elementor-11
@@ -15536,7 +15490,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   font-family: var(--e-global-typography-primary-font-family), Sans-serif;
   font-size: var(--e-global-typography-primary-font-size);
   font-weight: var(--e-global-typography-primary-font-weight);
-  text-shadow: 5px 2px 0px #3c415f;
   color: var(--e-global-color-primary);
 }
 
@@ -16714,7 +16667,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   .elementor-element.elementor-element-93602e3
   .elementor-icon-list-icon
   i {
-  color: var(--e-global-color-primary);
+  color: var(--e-global-color-c17a858);
   transition: color 0.3s;
 }
 
@@ -16722,7 +16675,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   .elementor-element.elementor-element-93602e3
   .elementor-icon-list-icon
   svg {
-  fill: var(--e-global-color-primary);
+  fill: var(--e-global-color-c17a858);
   transition: fill 0.3s;
 }
 
@@ -16747,7 +16700,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-20
   .elementor-element.elementor-element-93602e3
   .elementor-icon-list-text {
-  color: var(--e-global-color-primary);
+  color: var(--e-global-color-c17a858);
   transition: color 0.3s;
 }
 

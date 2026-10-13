@@ -2,5 +2,7 @@
 
 set -euo pipefail
 
+# N.B
+# also install depenedencies: npm install -g --allow-scripts=lightningcss-cli lightningcss-cli
 css_path="$(dirname "$(realpath "$0")")/../frontend/themes/v1/static/css"
-npx --yes lightningcss-cli@1.33.0 --minify --bundle --targets ">= 0.25%" "$css_path/app.css" -o "$css_path/app.min.css"
+lightningcss --minify --bundle --targets ">= 0.25%" "$css_path/app.css" -o "$css_path/app.min.css"
