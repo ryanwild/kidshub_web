@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://thekidshub.co.uk/</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>https://thekidshub.co.uk/about/</loc>
+        <loc>/about/</loc>
     </url>
     <url>
-        <loc>https://thekidshub.co.uk/contact/</loc>
+        <loc>/contact/</loc>
     </url>
     <url>
-        <loc>https://thekidshub.co.uk/privacy/</loc>
+        <loc>/privacy/</loc>
     </url>
     <url>
-        <loc>https://thekidshub.co.uk/testimonials/anon-01/</loc>
+        <loc>/testimonials/anon-01/</loc>
     </url>
     <url>
-        <loc>https://thekidshub.co.uk/testimonials/anon-02/</loc>
+        <loc>/testimonials/anon-02/</loc>
     </url>
     <url>
-        <loc>https://thekidshub.co.uk/testimonials/francesca/</loc>
+        <loc>/testimonials/francesca/</loc>
     </url>
     <url>
-        <loc>https://thekidshub.co.uk/testimonials/sandeep/</loc>
+        <loc>/testimonials/sandeep/</loc>
     </url>
 </urlset>
