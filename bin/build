@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+frontend_path="$(dirname "$(realpath "$0")")/../frontend"
+base_url="${1:-/}"
+echo "Build configured with:"
+echo "base-url $base_url"
+
+$(cd "$frontend_path" && zola build --base-url=$base_url --minify)
