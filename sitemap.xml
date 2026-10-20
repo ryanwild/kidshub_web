@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/</loc>
+        <loc>&apos;/&apos;/</loc>
     </url>
     <url>
-        <loc>/about/</loc>
+        <loc>&apos;/&apos;/about/</loc>
     </url>
     <url>
-        <loc>/contact/</loc>
+        <loc>&apos;/&apos;/contact/</loc>
     </url>
     <url>
-        <loc>/privacy/</loc>
+        <loc>&apos;/&apos;/privacy/</loc>
     </url>
     <url>
-        <loc>/testimonials/anon-01/</loc>
+        <loc>&apos;/&apos;/testimonials/anon-01/</loc>
     </url>
     <url>
-        <loc>/testimonials/anon-02/</loc>
+        <loc>&apos;/&apos;/testimonials/anon-02/</loc>
     </url>
     <url>
-        <loc>/testimonials/francesca/</loc>
+        <loc>&apos;/&apos;/testimonials/francesca/</loc>
     </url>
     <url>
-        <loc>/testimonials/sandeep/</loc>
+        <loc>&apos;/&apos;/testimonials/sandeep/</loc>
     </url>
 </urlset>
